@@ -1,0 +1,32 @@
+@import 'variables';
+@import '~bootstrap/scss/bootstrap';
+@import '~sweetalert2/src/sweetalert2';
+@import '~vue-form-wizard/dist/vue-form-wizard.min.css';
+
+@import 'elements/card';
+@import 'elements/navbar';
+@import 'elements/buttons';
+@import 'elements/transitions';
+@import 'elements/tooltips';
+
+.rental-datepicker {
+  .vdp-datepicker__calendar .cell.selected,
+  .vdp-datepicker__calendar .cell.selected.highlighted,
+  .vdp-datepicker__calendar .cell.selected:hover {
+    background: $primary;
+    color: white;
+  }
+  .vdp-datepicker__calendar .cell:not(.blank):not(.disabled).day:hover,
+  .vdp-datepicker__calendar .cell:not(.blank):not(.disabled).month:hover,
+  .vdp-datepicker__calendar .cell:not(.blank):not(.disabled).year:hover {
+    border-color: $primary;
+  }
+}
+
+.vue-form-wizard .wizard-icon {
+  font-style: normal;
+}
+
+.vue-form-wizard .wizard-btn {
+  border-radius: 2px;
+}

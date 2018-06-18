@@ -1,0 +1,102 @@
+{
+
+  "loading": "Učitavanje",
+
+  "admin_panel": "Admin Panel",
+  "dashboard": "Pregled",
+  "appointments": "Zakazivanja",
+  "calendar": "Kalendar",
+  "locations": "Lokacije",
+  "cars": "Automobili",
+  "users": "Korisnici",
+
+  "appointment": "Termin",
+  "appointment_created_at": "Datum Registracije",
+
+  "last_week_appointments": "Registracije u poslednjih nedelju dana",
+  "status": "Status",
+  "reserved": "Rezervisan",
+  "reserved_plural": "Rezervisani",
+  "completed": "Kompletiran",
+  "completed_plural": "Kompletirani",
+  "cancelled": "Otkazan",
+  "cancelled_plural": "Otkazani",
+  "today": "danas",
+
+  "remove_filter": "Poništi Filter",
+  "all_cars": "Svi Automobili",
+  "all_locations": "Sve Lokacije",
+
+  "create": "Kreiranje",
+  "edit": "Izmena",
+  "view": "Pregled",
+  "delete": "Brisanje",
+
+  "success_create": "Podaci sačuvani",
+  "success_update": "Podaci sačuvani",
+  "success_delete": "Brisanje uspešno",
+  "are_you_sure_delete": "Da li ste sigurni da želite da obrišete ovo?",
+  "are_you_sure_cancel": "Da li ste sigurni da želite da odustanete?",
+
+  "view_appointment": "Pregled Registracije",
+  "edit_appointment": "Izmena Registracije",
+  "delete_appointment": "Brisanje Registracije",
+  "appointment_saved_message": "Registracija je uspešno sačuvan.",
+  "appointment_deleted_message": "Registracija je uspešno obrisan.",
+
+  "new_location": "Nova Lokacija",
+  "location_created_at": "Datum Kreiranja",
+  "view_location": "Pregled Lokacije",
+  "edit_location": "Izmena Lokacije",
+  "delete_location": "Brisanje Lokacije",
+  "location_saved_message": "Lokacija je uspešno sačuvana.",
+  "location_created_message": "Lokacija je uspešno kreirana.",
+  "location_deleted_message": "Lokacija je uspešno obrisana.",
+  "location_delete_warning_message": "Brisanjem lokacije ćete obrisati sva zakazivanja za ovu lokaciju.",
+  "available_cars": "Dostupni Automobili",
+
+  "model": "Model",
+  "new_car": "Novi Automobil",
+  "car_created_at": "Datum Kreiranja",
+  "view_car": "Pregled Automobila",
+  "edit_car": "Izmena Automobila",
+  "delete_car": "Brisanje Automobila",
+  "car_saved_message": "Automobil je uspešno sačuvan.",
+  "car_created_message": "Automobil je uspešno kreiran.",
+  "car_deleted_message": "Automobil je uspešno obrisan.",
+  "car_delete_warning_message": "Brisanjem automobila ćete obrisati sva zakazivanja za ovaj automobil.",
+  "available_locations": "Dostupne Lokacije",
+
+  "new_user": "Novi Korisnik",
+  "user_created_at": "Datum Kreiranja",
+  "view_user": "Pregled Korisnika",
+  "edit_user": "Izmena Korisnika",
+  "delete_user": "Brisanje Korisnika",
+  "user_saved_message": "Korisnik je uspešno sačuvan.",
+  "user_created_message": "Korisnik je uspešno kreiran.",
+  "user_deleted_message": "Korisnik je uspešno obrisan.",
+  "user_delete_warning_message": "Brisanjem korisnika ćete obrisati sve informacije vezane za njega.",
+
+  "permissions": "Permisije",
+
+  "permission_admin_panel": "Pristup Admin Panelu",
+  "permission_view_appointments": "Pregled Zakazivanja",
+  "permission_edit_appointments": "Izmena Zakazivanja",
+  "permission_delete_appointments": "Brisanje Zakazivanja",
+
+  "permission_view_locations": "Pregled Lokacija",
+  "permission_edit_locations": "Izmena Lokacija",
+  "permission_create_locations": "Kreiranje Lokacija",
+  "permission_delete_locations": "Brisanje Lokacija",
+
+  "permission_view_cars": "Pregled Automobila",
+  "permission_edit_cars": "Izmena Automobila",
+  "permission_create_cars": "Kreiranje Automobila",
+  "permission_delete_cars": "Brisanje Automobila",
+
+  "permission_view_users": "Pregled Korisnika",
+  "permission_edit_users": "Izmena Korisnika",
+  "permission_create_users": "Kreiranje Korisnika",
+  "permission_delete_users": "Brisanje Korisnika"
+
+}

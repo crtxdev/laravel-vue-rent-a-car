@@ -1,0 +1,45 @@
+.loading-whirlpool-container{
+	position:relative;
+}
+
+.loading-whirlpool,
+.loading-whirlpool::before,
+.loading-whirlpool::after {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	border: 1px solid lighten($secondary, 50%);
+	border-left-color: $secondary;
+	border-radius: 974px;
+}
+
+.loading-whirlpool {
+	margin: -24px 0 0 -24px;
+	height: 49px;
+	width: 49px;
+	animation: loading 1150ms linear infinite;
+}
+
+.loading-whirlpool::before {
+	content: "";
+	margin: -22px 0 0 -22px;
+	height: 43px;
+	width: 43px;
+	animation: loading 1150ms linear infinite;
+}
+
+.loading-whirlpool::after {
+	content: "";
+	margin: -28px 0 0 -28px;
+	height: 55px;
+	width: 55px;
+	animation: loading 2300ms linear infinite;
+}
+
+
+
+@keyframes loading {
+	100% {
+		transform: rotate(360deg);
+	}
+}
