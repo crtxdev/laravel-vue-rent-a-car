@@ -31,6 +31,7 @@
   "edit": "Izmena",
   "view": "Pregled",
   "delete": "Brisanje",
+  "close": "Zatvori",
 
   "success_create": "Podaci sačuvani",
   "success_update": "Podaci sačuvani",
@@ -43,6 +44,16 @@
   "delete_appointment": "Brisanje Registracije",
   "appointment_saved_message": "Registracija je uspešno sačuvan.",
   "appointment_deleted_message": "Registracija je uspešno obrisan.",
+
+  "popular_bookings": "Popularna Zakazivanja",
+  "popular_booking_created_at": "Datum Kreiranja",
+  "total_booked": "Ukupno Zakazano Puta",
+  "generate_report": "Generisanje Izveštaja",
+  "period": "Period",
+  "in_days": "u danima",
+  "number_of_appointments": "Broj zakazivanja",
+  "generating_in_progress": "Generisanje je u toku",
+  "download_file": "Preuzimanje Datoteke",
 
   "new_location": "Nova Lokacija",
   "location_created_at": "Datum Kreiranja",

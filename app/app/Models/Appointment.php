@@ -34,6 +34,16 @@ class Appointment extends Model
     return $this->scopeOfDateRange($query, Carbon::today()->startOfDay()->subDays(7), Carbon::now()->endOfDay());
   }
 
+  public function scopeOfLastMonth($query)
+  {
+    return $this->scopeOfDateRange($query, Carbon::today()->startOfDay()->subDays(30), Carbon::now()->endOfDay());
+  }
+
+  public function scopeOfLastNDays($query, $days)
+  {
+    return $this->scopeOfDateRange($query, Carbon::today()->startOfDay()->subDays($days), Carbon::now()->endOfDay());
+  }
+
   public function scopeOfLocation($query, $locationId)
   {
     return $query->where('location_id', $locationId);

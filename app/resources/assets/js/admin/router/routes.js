@@ -4,6 +4,7 @@ const Home = () => import('~/admin/pages/home').then(m => m.default || m)
 const Appointments = () => import('~/admin/pages/appointments/index').then(m => m.default || m)
 const AppointmentsView = () => import('~/admin/pages/appointments/view').then(m => m.default || m)
 const AppointmentsEdit = () => import('~/admin/pages/appointments/edit').then(m => m.default || m)
+const PopularBookings = () => import('~/admin/pages/popular-bookings/index').then(m => m.default || m)
 const Locations = () => import('~/admin/pages/locations/index').then(m => m.default || m)
 const LocationsCreate = () => import('~/admin/pages/locations/create').then(m => m.default || m)
 const LocationsView = () => import('~/admin/pages/locations/view').then(m => m.default || m)
@@ -24,6 +25,8 @@ export default [
   { path: '/appointments', name: 'appointments', component: Appointments, meta: { permissions: ['view appointments'] } },
   { path: '/appointments/:id/edit', name: 'appointments.edit', component: AppointmentsEdit, meta: { permissions: ['edit appointments'] } },
   { path: '/appointments/:id', name: 'appointments.view', component: AppointmentsView, meta: { permissions: ['view appointments'] } },
+
+  { path: '/popular-bookings', name: 'popular-bookings', component: PopularBookings, meta: { permissions: ['view appointments'] } },
 
   { path: '/locations', name: 'locations', component: Locations, meta: { permissions: ['view locations'] } },
   { path: '/locations/create', name: 'locations.create', component: LocationsCreate, meta: { permissions: ['create locations'] } },

@@ -5,11 +5,11 @@ import FontAwesomeIcon from '@fortawesome/vue-fontawesome'
 // import { } from '@fortawesome/fontawesome-free-regular/shakable.es'
 
 import {
-  faUser, faLock, faSignOutAlt, faCog, faTachometerAlt, faCalendarAlt, faLocationArrow, faCar, faUsers, faSortAmountUp, faSortAmountDown, faCaretDown, faEye, faPencilAlt, faTrashAlt, faSave, faArrowAltCircleLeft, faArrowAltCircleRight, faEllipsisH, faBars, faPlus, faTimes, faListAlt, faPrint
+  faUser, faLock, faSignOutAlt, faCog, faTachometerAlt, faCalendarAlt, faLocationArrow, faCar, faUsers, faSortAmountUp, faSortAmountDown, faCaretDown, faEye, faPencilAlt, faTrashAlt, faSave, faArrowAltCircleLeft, faArrowAltCircleRight, faEllipsisH, faBars, faPlus, faTimes, faListAlt, faPrint, faStar, faClipboardList, faDownload
 } from '@fortawesome/fontawesome-free-solid/shakable.es'
 
 fontawesome.library.add(
-  faUser, faLock, faSignOutAlt, faCog, faTachometerAlt, faCalendarAlt, faLocationArrow, faCar, faUsers, faSortAmountUp, faSortAmountDown, faCaretDown, faEye, faPencilAlt, faTrashAlt, faSave, faArrowAltCircleLeft, faArrowAltCircleRight, faEllipsisH, faBars, faPlus, faTimes, faListAlt, faPrint
+  faUser, faLock, faSignOutAlt, faCog, faTachometerAlt, faCalendarAlt, faLocationArrow, faCar, faUsers, faSortAmountUp, faSortAmountDown, faCaretDown, faEye, faPencilAlt, faTrashAlt, faSave, faArrowAltCircleLeft, faArrowAltCircleRight, faEllipsisH, faBars, faPlus, faTimes, faListAlt, faPrint, faStar, faClipboardList, faDownload
 )
 
 Vue.component('fa', FontAwesomeIcon)

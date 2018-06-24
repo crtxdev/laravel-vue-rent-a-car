@@ -9,6 +9,10 @@
       <fa icon="list-alt" fixed-width/>
       {{ $t('appointments') }}
     </router-link>
+    <router-link :to="{ name: 'popular-bookings' }" v-if="hasPermission('view appointments')">
+      <fa icon="star" fixed-width/>
+      {{ $t('popular_bookings') }}
+    </router-link>
     <router-link :to="{ name: 'locations' }" v-if="hasPermission('view locations')">
       <fa icon="location-arrow" fixed-width/>
       {{ $t('locations') }}

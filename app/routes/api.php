@@ -57,6 +57,11 @@ Route::group([
     });
   }
 
+  Route::group([ 'prefix' => 'popular-bookings' ], function(){
+    Route::get('/', 'PopularBookingsController@datatable');
+    Route::get('report', 'PopularBookingsController@report');
+  });
+
   Route::get('stats', 'StatsController@get');
 
 });
